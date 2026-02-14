@@ -5,10 +5,10 @@ body {
 }
 .left-div {
       display: flex;
-      margin: 10px 50px;
+      margin: 15px 30px;
 }
 .right-div {
-    margin: 10px 60px;
+    margin: 15px 40px;
     display: flex;
     gap: 18px;
     font-weight: bold;
@@ -102,5 +102,12 @@ color: #1274f5;
     }
     .service {
         display: none;
+    }
+    .get {
+        display: none;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
     }
 }
