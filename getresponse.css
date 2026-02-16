@@ -37,6 +37,9 @@ nav {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
 }
 .log-btn {
     border: none;
@@ -77,6 +80,7 @@ color: #1274f5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin-top: 70px;
 }
 .info img {
     width: 100%;
@@ -92,6 +96,31 @@ color: #1274f5;
 }
 .hi {
     color: #1274f5;
+}
+.end {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 40px;
+}
+.end li:hover {
+    color: #1a73e8;
+}
+.end ul li {
+    margin-bottom: 10px;
+}
+.find ul{
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    margin-top: 15px;
+} 
+.find li {
+    list-style: none;
+    font-weight: lighter;
+    align-items: center;
 }
 @media (max-width: 600px) {
     .menu {
@@ -109,5 +138,6 @@ color: #1274f5;
     .info {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 }
