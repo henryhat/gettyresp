@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css"/>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <img src="/assets/file_00000000cfe871f88330e5986a45385d.png" class="img-fluid rounded-circle" alt="logo" width="60px" height="60px" class="d-inline-block align-item-top"/>
+    <img src="assets/logo.png" class="img-fluid" alt="logo" width="60px" height="60px" class="d-inline-block align-item-top"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,17 +21,17 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Book A Flight</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Our Services
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Visa Assistance and Travel documents</a></li>
+            <li><a class="dropdown-item" href="#">Tour Packages</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Activity Bookings</a></li>
           </ul>
         </li>
         <!-- <li class="nav-item">
@@ -101,16 +102,16 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-            <div>
+            <form>
                 <label>Name</label>
-                <input type="text" placeholder="Enter Your Name"></input></div>
-              <div> <label>E-mail</label>
-                <input type="text" placeholder="Enter Your E-mail"></input></div>
-               <div><label>Current City</label>
-                <input type="text" placeholder="Current address"></input></div> 
-                <div><label>Destination</label>
+                <input type="text" placeholder="Enter Your Name"></input></form>
+              <form> <label>E-mail</label>
+                <input type="text" placeholder="Enter Your E-mail"></input></form>
+               <form><label>Current City</label>
+                <input type="text" placeholder="Current address"></input></form> 
+                <form><label>Destination</label>
                 <input type="text" placeholder="Choice of travel"></input>
-            </div>
+                </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>

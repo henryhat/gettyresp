@@ -1,0 +1,8 @@
+.modal-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card {
+    margin-top: 30px;
+}
