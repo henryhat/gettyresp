@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #fff;
+    font-family: roboto, sans-serif;
+}
+.main {
+    display: flex;
+    height: 100%;
+}
+.left-div {
+flex: 34%;
+margin-top: 70px;
+width: 100%;
+height: 100%;
+}
+.right-div {
+    flex: 66%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.right-div img{
+    height: 100%;
+}
+.left-div img {
+width: 150px;
+height: 80px;
+box-sizing: border-box;
+display: block;
+margin: 0 auto;
+}
+.log {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 400;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    gap: 20px;
+}
+.details input {
+    padding: 15px;
+}
+.details button {
+    padding: 15px;
+    border-radius: 4px;
+}
+.input-box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+}
+.input-box input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #444;
+}
+.input-box i {
+    width: 10px;
+    height: 100%;
+    margin-right: 20px;
+    color: #444;
+}
+.forgot {
+    font-size: 12px;
+    font-weight: light;
+    cursor: pointer;
+}
+.btn {
+    background-color: #35aa47;
+    color: white;
+    font-weight: 400px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: grey;
+}
+@media (max-width: 600px) {
+    .main {display: flex;
+        flex-direction: column;
+    }
+}
