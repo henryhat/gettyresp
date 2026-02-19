@@ -76,6 +76,11 @@ margin: 0 auto;
     font-size: 12px;
     font-weight: light;
     cursor: pointer;
+    color: #444;
+    text-decoration: none;
+}
+.forgot:hover {
+    text-decoration: underline;
 }
 .btn {
     background-color: #35aa47;
