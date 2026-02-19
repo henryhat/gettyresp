@@ -3,6 +3,56 @@
     flex-direction: column;
     gap: 10px;
 }
+body {
+    background-color: #FFF;
+}
+.accordion-item {
+    width: 100%;
+}
 .card {
     margin-top: 30px;
 }
+.end {
+    display: flex;
+    flex-direction: column;}
+    .end label {
+        text-align: center;
+    }
+    .footer-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 20px;
+    }
+    .footer-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer-2 ul {
+        list-style: none;
+    }
+    .footer-2 li:hover {
+        color: rgb(63, 63, 241);
+    } 
+    .find ul {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    .find li {
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 10px;
+    }
+    .footer-2 {
+        color: #fff;
+        background-color: #1d3557;
+    }
+    .yup {
+        text-align: center;
+    }
