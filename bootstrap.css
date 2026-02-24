@@ -52,6 +52,7 @@ body {
     .footer-2 {
         color: #fff;
         background-color: #40916c;
+        gap: 15px;
     }
     .yup {
         text-align: center;
@@ -70,4 +71,8 @@ body {
         .footer-1 img {
             width: 100%;
         }
-    }
+        .card {
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+    } }
