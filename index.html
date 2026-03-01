@@ -6,8 +6,41 @@
     <title>Assignment</title>
 </head>
 <body>
-    <a href="getresponse.html">Link to my first assignment</a>
-    <a href="bootstrap.html">Link to my second assignment</a>
-    <a href="appclick.html">Link to Appclick landing page </a>
+    <ul>
+       <li><a href="getresponse.html">Link to my first assignment</a></li> 
+    <li><a href="bootstrap.html">Link to my second assignment</a></li>
+   <li> <a href="appclick.html">Link to Appclick landing page </a></li>
+    </ul>
+    <script>
+        let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let doubleNum = num.map(num => num * 2);
+console.log (doubleNum);
+//2. & 3 & 6 & 9
+let score = [45, 67, 89, 34, 90, 76, 54]
+let passed = score.filter(score => score > 60)
+console.log (passed)
+let above = score.find(score=> score > 80)
+console.log (above)
+let total_score = score.reduce((sum,total_score) => sum+total_score, 0)
+console.log (total_score)
+let sortNum = score.sort((a,b) => a-b);
+console.log (sortNum)
+//4.& 5
+let fruits = ["apple", "banana", "mango", "orange", "pear"]
+fruits.splice(2, 1, "grapes");
+console.log (fruits.slice (0, 3));
+console.log (fruits)
+//7
+fruits.forEach(fruits => {
+    console.log (fruits.toUpperCase(fruits))
+})
+//8
+let name = ["John", "Jane", "Mark", "Mary"]
+console.log (name.includes ("Mark"))
+//10
+let color1 = ["red", " blue"]
+let color2 = [", green", " yellow"]
+console.log (color1 + color2)
+    </script>
 </body>
 </html>
